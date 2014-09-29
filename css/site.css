@@ -1,0 +1,52 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 2px;
+  border-bottom: 1px solid black; }
+
+.hero {
+  height: 400px;
+  background: url("../img/cover.jpg");
+  background-position: 0px -76px; }
+
+.about {
+  width: 360px;
+  padding-top: 100px;
+  margin: 0 auto; }
+  .about .name {
+    margin: 30px 0 0 20px;
+    font-size: 32px;
+    font-weight: 300; }
+  .about .blurb {
+    color: #363636;
+    font-size: 20px;
+    font-weight: 300; }
+  .about .links {
+    padding-top: 4px; }
+    .about .links img {
+      width: 25px; }
+    .about .links a {
+      border-bottom: none; }
+    .about .links #twitter {
+      position: relative;
+      top: 1px; }
+  .about .photo {
+    float: left;
+    margin-right: 25px;
+    border: 1px solid #8fa0b1;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: url("../img/me.jpg") -68px -9px; }
+
+.projects-separator {
+  background: #f1bf5b;
+  height: 60px;
+  text-align: center;
+  padding-top: 14px;
+  font-size: 23px; }
+
+/*# sourceMappingURL=site.css.map */
