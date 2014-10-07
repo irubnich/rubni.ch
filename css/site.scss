@@ -106,3 +106,31 @@ a {
 		}
 	}
 }
+
+@media handheld, only screen and (max-width: 767px) {
+	.grid {
+		padding: 0;
+	}
+
+	.main .projects {
+		.project {
+			height: 380px;
+		}
+		.name {
+			margin: 0;
+
+			img {
+				max-width: 340px;
+			}
+		}
+		.info {
+			margin-top: 0;
+			padding: 40px;
+
+			p {
+				margin: 0;
+				padding: 14px 0;
+			}
+		}
+	}
+}

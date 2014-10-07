@@ -79,4 +79,21 @@ a {
     height: 100%;
     line-height: 2em; }
 
+@media handheld, only screen and (max-width: 767px) {
+  .grid {
+    padding: 0; }
+
+  .main .projects .project {
+    height: 380px; }
+  .main .projects .name {
+    margin: 0; }
+    .main .projects .name img {
+      max-width: 340px; }
+  .main .projects .info {
+    margin-top: 0;
+    padding: 40px; }
+    .main .projects .info p {
+      margin: 0;
+      padding: 14px 0; } }
+
 /*# sourceMappingURL=site.css.map */
