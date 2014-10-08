@@ -9,7 +9,8 @@ a {
 
 .hero {
   height: 400px;
-  background: url("../img/cover.jpg");
+  background: url("../img/cover.jpg") no-repeat;
+  background-size: cover;
   background-position: 0px -76px; }
 
 .about {
@@ -82,6 +83,9 @@ a {
 @media handheld, only screen and (max-width: 767px) {
   .grid {
     padding: 0; }
+
+  .hero {
+    background-size: initial; }
 
   .main .projects .project {
     height: 380px; }
