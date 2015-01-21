@@ -7,128 +7,44 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Ilya Rubnich</title>
-        <meta name="description" content="Personal site for Ilya Rubnich.">
+        <meta name="description" content="A website about a guy.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/simplegrid.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/site.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <style>
+            body {
+                font-family: monospace;
+            }
+            #name {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+
+                font-size: 80px;
+                font-weight: bold;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+
+                cursor: default;
+            }
+        </style>
     </head>
     <body>
-        <div class="hero">
-            <div class="about clearfix">
-                <div class="photo"></div>
-                <div class="name">Ilya Rubnich</div>
-                <div class="blurb">
-                    Web Developer
-                </div>
-                <div class="links">
-                    <a href="https://github.com/irubnich">
-                        <img src="img/github.gif">
-                    </a>
-                    <a href="https://twitter.com/unoquadium">
-                        <img id="twitter" src="img/twitter.png">
-                    </a>
-                    <a href="http://www.linkedin.com/pub/ilya-rubnich/37/a4/bb5/">
-                        <img src="img/linkedin.png">
-                    </a>
-                </div>
-            </div>
+        <div id="name">
+            Ilya
         </div>
 
-        <div class="projects-separator">
-            Hi there, I'm Ilya. Here's some stuff I've worked on:
-        </div>
-
-        <div class="main">
-            <div class="projects">
-                <div class="project grid">
-                    <div class="name col-1-2">
-                        <h1>Kontrast</h1>
-                        <a class="img-link" href="img/previews/kontrast.png" target="_blank">
-                            <img src="img/previews/kontrast.png">
-                        </a><br>
-                        <a class="more" href="http://engineering.harrys.com/2014/09/24/kontrast.html" target="_blank">More Info</a>
-                    </div>
-                    <div class="info col-1-2 hide-on-mobile">
-                        <p>
-                            Kontrast is a Ruby gem that allows developers to visually compare two versions of a website. Harry's uses it instead of manual QA testing before every production deploy to make sure that everything on the website is in its right place.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="project grid">
-                    <div class="info col-1-2 hide-on-mobile">
-                        <p>
-                            The Forest Stewardship Network is a classifieds site commissioned by <a href="http://www.nature.org" target="_blank">The Nature Conservancy</a> that connects forest contractors, forest landowners, and log buyers and sellers in Washington state.
-                        </p>
-                        <p>FSN was done jointly with the team at <a href="http://www.thegorgeproject.com" target="_blank">The Gorge Project</a>.</p>
-                    </div>
-                    <div class="name col-1-2">
-                        <h1>Forest Stewardship Network</h1>
-                        <a class="img-link" href="img/previews/fsn.png" target="_blank">
-                            <img src="img/previews/fsn.png">
-                        </a><br>
-                        <a class="more" href="http://forest-stewardship.net" target="_blank">More Info</a>
-                    </div>
-                </div>
-
-                <div class="project grid">
-                    <div class="name col-1-2">
-                        <h1>ScheduleMe</h1>
-                        <a class="img-link" href="img/previews/scheduleme.png" target="_blank">
-                            <img src="img/previews/scheduleme.png">
-                        </a><br>
-                        <a class="more" href="https://www.harrys.com/cornershop" target="_blank">Schedule an Appointment!</a>
-                    </div>
-                    <div class="info col-1-2 hide-on-mobile">
-                        <p>
-                            ScheduleMe is a full-featured custom scheduling system created for <a href="https://www.harrys.com/cornershop" target="_blank">Harry's Corner Shop</a> in order to manage barbers, their availabilities, and customers' appointments.
-                        </p>
-                        <p>ScheduleMe has been handling the Corner Shop's scheduling duties since late 2013.</p>
-                    </div>
-                </div>
-
-                <div class="project grid">
-                    <div class="info col-1-2 hide-on-mobile">
-                        <p>
-                            H'University is an online and on-campus educational  program that aims to teach students real-world skills that they wouldn't typically learn in a college classroom.
-                        </p>
-                    </div>
-                    <div class="name col-1-2">
-                        <h1>H'University</h1>
-                        <a class="img-link" href="img/previews/huniversity.png" target="_blank">
-                            <img src="img/previews/huniversity.png">
-                        </a><br>
-                        <a class="more" href="http://huniversity.co" target="_blank">More Info</a>
-                    </div>
-                </div>
-
-                <div class="project grid">
-                    <div class="name col-1-2">
-                        <h1>HMiaFB</h1>
-                        <a href="img/previews/bitcoin.png" target="_blank">
-                            <img src="img/previews/bitcoin.png">
-                        </a><br>
-                        <a class="more" href="http://howmuchisafuckingbitcoin.com" target="_blank">So how much is a fucking Bitcoin?</a>
-                    </div>
-                    <div class="info col-1-2 hide-on-mobile">
-                        <p>
-                            How Much is a Fucking Bitcoin was a quick side-project that briefly went viral on Reddit. It does exactly what it says on the cover.
-                        </p>
-                        <p>You can check out the source code on <a href="https://github.com/irubnich/coinbase-bitcoin" target="_blank">GitHub</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>
+            // Look ma, no libraries!
+            document.getElementById("name").onmouseover = function() {
+                this.style.fontFamily = "serif";
+            };
+            document.getElementById("name").onmouseout = function() {
+                this.style.fontFamily = "monospace";
+            };
+        </script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
