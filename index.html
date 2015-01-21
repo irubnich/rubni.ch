@@ -12,10 +12,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <style>
-            body {
-                font-family: monospace;
-            }
             #name {
+                font-family: monospace;
+
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -29,20 +28,34 @@
 
                 cursor: default;
             }
+
+            #link {
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                font-size: 10px;
+            }
+
+            #name:hover {
+                text-transform: lowercase;
+            }
         </style>
     </head>
     <body>
         <div id="name">
             Ilya
         </div>
+        <div id="link">
+            <a href="https://github.com/irubnich">GH</a> &bull;
+            <a href="https://twitter.com/unoquadium">TW</a> &bull;
+            <a href="http://howmuchisafuckingbitcoin.com">HMIAFB</a>
+        </div>
 
         <script>
             // Look ma, no libraries!
             document.getElementById("name").onmouseover = function() {
-                this.style.fontFamily = "serif";
             };
             document.getElementById("name").onmouseout = function() {
-                this.style.fontFamily = "monospace";
             };
         </script>
 
